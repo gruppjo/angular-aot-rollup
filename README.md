@@ -1,3 +1,15 @@
+# AOT
+```sh
+npm start
+```
+Builds with AOT, but no watch (index.html).
+
+```sh
+npm start:jit
+```
+Runs with JIT, with watch (index-jit.html).
+
+
 # Angular QuickStart Source
 [![Build Status][travis-badge]][travis-badge-url]
 
@@ -32,11 +44,11 @@ Now you can continue working on the new project.
 
 ## Prerequisites
 
-Node.js and npm are essential to Angular development. 
-    
+Node.js and npm are essential to Angular development.
+
 <a href="https://docs.npmjs.com/getting-started/installing-node" target="_blank" title="Installing Node.js and updating npm">
 Get it now</a> if it's not already installed on your machine.
- 
+
 **Verify that you are running at least node `v4.x.x` and npm `3.x.x`**
 by running `node -v` and `npm -v` in a terminal/console window.
 Older versions produce errors.
@@ -88,7 +100,7 @@ git add .
 git commit -m "Initial commit"
 ```
 
->Recover the deleted `.gitignore` from the QuickStart repository 
+>Recover the deleted `.gitignore` from the QuickStart repository
 if you lost it in the _Delete non-essential files_ step.
 
 Create a *remote repository* for this project on the service of your choice.
@@ -111,7 +123,7 @@ npm start
 
 >Doesn't work in _Bash for Windows_ which does not support servers as of January, 2017.
 
-The `npm start` command first compiles the application, 
+The `npm start` command first compiles the application,
 then simultaneously re-compiles and runs the `lite-server`.
 Both the compiler and the server watch for file changes.
 
@@ -175,7 +187,7 @@ we configured Protractor to find them.
 Thereafter, run them with `npm run e2e`.
 
 That command first compiles, then simultaneously starts the `lite-server` at `localhost:8080`
-and launches Protractor.  
+and launches Protractor.
 
 The pass/fail test results appear at the bottom of the terminal window.
 A custom reporter (see `protractor.config.js`) generates a  `./_test-output/protractor-results.txt` file

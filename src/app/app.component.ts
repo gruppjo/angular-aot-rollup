@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   showHeading = true;
-  heroes = ['Magneta', 'Bombasto', 'Magma', 'Tornado'];
+  heroes = ['Pikachu', 'Bombasto', 'Magma', 'Tornado'];
   toggleHeading() {
     this.showHeading = !this.showHeading;
   }

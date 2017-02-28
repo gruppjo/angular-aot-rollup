@@ -1,5 +1,6 @@
 {
   "startPath": "/index-jit.html",
+  "open": false,
   "server": {
     "baseDir": "src",
     "routes": {
