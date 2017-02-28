@@ -22,7 +22,7 @@
     "pretest:once": "npm run build",
     "test:once": "karma start karma.conf.js --single-run",
     "lint": "tslint ./src/**/*.ts -t verbose",
-    "sass": "node-sass -w src/app -o src/app"
+    "sass": "node-sass src/app -o src/app && node-sass -w src/app -o src/app"
   },
   "keywords": [],
   "author": "",
