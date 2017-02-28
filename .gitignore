@@ -16,4 +16,8 @@ _temp
 yarn.lock
 
 # aot
-aot
+aot/
+
+# sass
+.sass-cache/
+src/**/*.css.map

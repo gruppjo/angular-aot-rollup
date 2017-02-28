@@ -1,13 +1,21 @@
 # AOT
+### Build with aot
 ```sh
 npm start
 ```
 Builds with AOT, but no watch (index.html).
 
+### Develop with jit
 ```sh
 npm start:jit
 ```
 Runs with JIT, with watch (index-jit.html).
+
+### Sass
+```sh
+npm run sass
+```
+watches .scss files in `src/app`.
 
 
 # Angular QuickStart Source

@@ -21,7 +21,8 @@
     "test": "concurrently \"npm run build:watch\" \"karma start karma.conf.js\"",
     "pretest:once": "npm run build",
     "test:once": "karma start karma.conf.js --single-run",
-    "lint": "tslint ./src/**/*.ts -t verbose"
+    "lint": "tslint ./src/**/*.ts -t verbose",
+    "sass": "node-sass -w src/app -o src/app"
   },
   "keywords": [],
   "author": "",
@@ -39,6 +40,7 @@
     "@angular/router": "~3.4.0",
     "angular-in-memory-web-api": "~0.2.4",
     "core-js": "^2.4.1",
+    "node-sass": "^4.5.0",
     "rollup": "^0.41.4",
     "rollup-plugin-commonjs": "^7.0.0",
     "rollup-plugin-node-resolve": "^2.0.0",
