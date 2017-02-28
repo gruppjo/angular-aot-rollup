@@ -13,7 +13,7 @@ _test-output
 _temp
 
 # yarn
-yarn.lock
+# yarn.lock
 
 # aot
 aot/
